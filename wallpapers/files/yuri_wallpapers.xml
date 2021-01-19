@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.9.5
+- https://www.phpmyadmin.net
+-
+- 主机： localhost
+- 生成日期： 2021-01-19 22:49:38
+- 服务器版本： 5.7.31-log
+- PHP 版本： 7.4.12
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="yurikoto" collation="utf8_general_ci" charset="utf8">
+            <pma:table name="yuri_wallpapers">
+                CREATE TABLE `yuri_wallpapers` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `link` text NOT NULL,
+                  `type` varchar(10) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=35 DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - 数据库： 'yurikoto'
+    -->
+    <database name="yurikoto">
+        <!-- 表 yuri_wallpapers -->
+        <table name="yuri_wallpapers">
+            <column name="id">4</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/day/0001.jpg</column>
+            <column name="type">day</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">5</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/day/0002.jpg</column>
+            <column name="type">day</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">6</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/day/0003.jpg</column>
+            <column name="type">day</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">7</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/day/0004.jpg</column>
+            <column name="type">day</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">8</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/day/0005.jpg</column>
+            <column name="type">day</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">9</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/day/0006.jpg</column>
+            <column name="type">day</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">10</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/day/0007.jpg</column>
+            <column name="type">day</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">11</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/day/0008.jpg</column>
+            <column name="type">day</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">12</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/day/0009.jpg</column>
+            <column name="type">day</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">13</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/day/0010.jpg</column>
+            <column name="type">day</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">14</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/day/0011.jpg</column>
+            <column name="type">day</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">15</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/day/0012.jpg</column>
+            <column name="type">day</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">16</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/day/0013.jpg</column>
+            <column name="type">day</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">17</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/day/0014.jpg</column>
+            <column name="type">day</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">18</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/day/0015.jpg</column>
+            <column name="type">day</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">19</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/day/0016.jpg</column>
+            <column name="type">day</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">20</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/day/0017.jpg</column>
+            <column name="type">day</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">21</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/day/0018.jpg</column>
+            <column name="type">day</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">22</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/day/0019.jpg</column>
+            <column name="type">day</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">23</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/night/0001.jpg</column>
+            <column name="type">night</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">24</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/night/0002.jpg</column>
+            <column name="type">night</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">25</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/night/0003.jpg</column>
+            <column name="type">night</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">26</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/night/0004.jpg</column>
+            <column name="type">night</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">27</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/night/0005.jpg</column>
+            <column name="type">night</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">28</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/night/0006.jpg</column>
+            <column name="type">night</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">29</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/night/0007.jpg</column>
+            <column name="type">night</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">30</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/night/0008.jpg</column>
+            <column name="type">night</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">31</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/night/0009.jpg</column>
+            <column name="type">night</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">32</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/night/0010.png</column>
+            <column name="type">night</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">33</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/night/0011.jpg</column>
+            <column name="type">night</column>
+        </table>
+        <table name="yuri_wallpapers">
+            <column name="id">34</column>
+            <column name="link">https://cdn.jsdelivr.net/gh/yurikoto/yurikoto-resources@master/wallpapers/night/0012.jpg</column>
+            <column name="type">night</column>
+        </table>
+    </database>
+</pma_xml_export>
