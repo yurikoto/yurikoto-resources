@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.9.5
+- https://www.phpmyadmin.net
+-
+- 主机： localhost
+- 生成日期： 2021-01-19 20:56:58
+- 服务器版本： 5.7.31-log
+- PHP 版本： 7.4.12
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="yurikoto" collation="utf8_general_ci" charset="utf8">
+            <pma:table name="yuri_sentences">
+                CREATE TABLE `yuri_sentences` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `content` text NOT NULL,
+                  `source` varchar(256) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - 数据库： 'yurikoto'
+    -->
+    <database name="yurikoto">
+        <!-- 表 yuri_sentences -->
+        <table name="yuri_sentences">
+            <column name="id">1</column>
+            <column name="content">学姐也不要对我的喜欢的东西说讨厌啊。</column>
+            <column name="source">终将成为你</column>
+        </table>
+    </database>
+</pma_xml_export>

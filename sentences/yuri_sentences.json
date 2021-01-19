@@ -1,0 +1,9 @@
+[
+{"type":"header","version":"4.9.5","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"yurikoto"},
+{"type":"table","name":"yuri_sentences","database":"yurikoto","data":
+[
+{"id":"1","content":"学姐也不要对我的喜欢的东西说讨厌啊。","source":"终将成为你"}
+]
+}
+]
