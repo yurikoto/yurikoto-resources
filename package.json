@@ -1,0 +1,23 @@
+{
+  "name": "yurikoto-resources",
+  "version": "1.0.0",
+  "description": "yurikoto image and sentence resources",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yurikoto/yurikoto-resources.git"
+  },
+  "keywords": [
+    "yurikoto",
+    "resources"
+  ],
+  "author": "yurikoto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yurikoto/yurikoto-resources/issues"
+  },
+  "homepage": "https://github.com/yurikoto/yurikoto-resources#readme"
+}
